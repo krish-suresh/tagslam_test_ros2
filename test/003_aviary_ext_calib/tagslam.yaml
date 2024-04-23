@@ -1,0 +1,513 @@
+tagslam_parameters:
+  optimizer_mode: fast
+  minimum_viewing_angle: 12.0
+  max_num_incremental_opt: 500000
+  pixel_noise: 1.0
+  max_subgraph_error: 50.0
+  subgraph_abs_prior_position_noise: 0.1
+  subgraph_abs_prior_rotation_noise: 0.1
+body_defaults:
+  position_noise: 0.05
+  rotation_noise: 0.01
+bodies:
+  - aviary:
+      type: simple
+      is_static: true
+      default_tag_size: 0.12
+      pose:
+        position:
+          x: 0
+          y: 0
+          z: 0
+        rotation:
+          x: 0
+          y: 0
+          z: 0
+        position_noise:
+          x: 0.0001
+          y: 0.0001
+          z: 0.0001
+        rotation_noise:
+          x: 1.0e-05
+          y: 1.0e-05
+          z: 1.0e-05
+  - board_6:
+      type: board
+      is_static: true
+      default_tag_size: 0.12
+      board:
+        tag_start_id: 6
+        tag_size: 0.12
+        tag_bits: 6
+        tag_spacing: 0.25
+        tag_rows: 2
+        tag_columns: 3
+        tag_rotation_noise: 0.001
+        tag_position_noise: 0.001
+      pose:
+        position:
+          x: 3.64879112
+          y: -1.56242519
+          z: 1.31030944
+        rotation:
+          x: -1.59239081
+          y: 0.00719165
+          z: -0.01153465
+        position_noise:
+          x: 0.00129267
+          y: 0.00261900
+          z: 0.00202748
+        rotation_noise:
+          x: 0.00078665
+          y: 0.00086591
+          z: 0.00081245
+  - board_12:
+      type: board
+      is_static: true
+      default_tag_size: 0.12000000
+      board:
+        tag_start_id: 12
+        tag_size: 0.12000000
+        tag_bits: 6
+        tag_spacing: 0.25000000
+        tag_rows: 2
+        tag_columns: 3
+        tag_rotation_noise: 0.00100000
+        tag_position_noise: 0.00100000
+      pose:
+        position:
+          x: 2.28265102
+          y: -1.57008805
+          z: 1.15205171
+        rotation:
+          x: 0.02746848
+          y: -2.22074711
+          z: -2.20763198
+        position_noise:
+          x: 0.00133059
+          y: 0.00176566
+          z: 0.00128359
+        rotation_noise:
+          x: 0.00065635
+          y: 0.00077045
+          z: 0.00079220
+  - board_18:
+      type: board
+      is_static: true
+      default_tag_size: 0.12000000
+      board:
+        tag_start_id: 18
+        tag_size: 0.12000000
+        tag_bits: 6
+        tag_spacing: 0.25000000
+        tag_rows: 2
+        tag_columns: 3
+        tag_rotation_noise: 0.00100000
+        tag_position_noise: 0.00100000
+      pose:
+        position:
+          x: 2.45727715
+          y: 0.76838412
+          z: 0.66120948
+        rotation:
+          x: 1.56338177
+          y: 0.00888300
+          z: 0.01948840
+        position_noise:
+          x: 0.00053809
+          y: 0.00156822
+          z: 0.00133800
+        rotation_noise:
+          x: 0.00079659
+          y: 0.00090807
+          z: 0.00077872
+  - board_24:
+      type: board
+      is_static: true
+      default_tag_size: 0.12000000
+      board:
+        tag_start_id: 24
+        tag_size: 0.12000000
+        tag_bits: 6
+        tag_spacing: 0.25000000
+        tag_rows: 2
+        tag_columns: 3
+        tag_rotation_noise: 0.00010000
+        tag_position_noise: 0.00010000
+      pose:
+        position:
+          x: 2.77435039
+          y: -1.56888300
+          z: 0.67055563
+        rotation:
+          x: 0.01548903
+          y: 2.21478066
+          z: 2.21098003
+        position_noise:
+          x: 0.00120759
+          y: 0.00202475
+          z: 0.00155418
+        rotation_noise:
+          x: 0.00065981
+          y: 0.00070222
+          z: 0.00067801
+  - board_30:
+      type: board
+      is_static: true
+      default_tag_size: 0.12000000
+      board:
+        tag_start_id: 30
+        tag_size: 0.12000000
+        tag_bits: 6
+        tag_spacing: 0.25000000
+        tag_rows: 2
+        tag_columns: 3
+        tag_rotation_noise: 0.00100000
+        tag_position_noise: 0.00100000
+      pose:
+        position:
+          x: 4.76471054
+          y: -1.56661071
+          z: 1.31545967
+        rotation:
+          x: -1.21959361
+          y: 1.21399957
+          z: 1.19167897
+        position_noise:
+          x: 0.00337149
+          y: 0.00137539
+          z: 0.00261726
+        rotation_noise:
+          x: 0.00084030
+          y: 0.00079888
+          z: 0.00086039
+  - board_36:
+      type: board
+      is_static: true
+      default_tag_size: 0.12000000
+      board:
+        tag_start_id: 36
+        tag_size: 0.12000000
+        tag_bits: 6
+        tag_spacing: 0.25000000
+        tag_rows: 2
+        tag_columns: 3
+        tag_rotation_noise: 0.00100000
+        tag_position_noise: 0.00100000
+      pose:
+        position:
+          x: 0.02506216
+          y: -1.15326830
+          z: 0.54625974
+        rotation:
+          x: 1.19543165
+          y: 1.22227662
+          z: 1.21765860
+        position_noise:
+          x: 0.00045974
+          y: 0.00054713
+          z: 0.00104295
+        rotation_noise:
+          x: 0.00168421
+          y: 0.00150745
+          z: 0.00059587
+  - board_42:
+      type: board
+      is_static: true
+      default_tag_size: 0.12000000
+      board:
+        tag_start_id: 42
+        tag_size: 0.12000000
+        tag_bits: 6
+        tag_spacing: 0.25000000
+        tag_rows: 2
+        tag_columns: 3
+        tag_rotation_noise: 0.00100000
+        tag_position_noise: 0.00100000
+      pose:
+        position:
+          x: 6.02530527
+          y: -0.87770684
+          z: 0.55871445
+        rotation:
+          x: 1.21813087
+          y: -1.21377184
+          z: -1.19033482
+        position_noise:
+          x: 0.00321638
+          y: 0.00402107
+          z: 0.00144234
+        rotation_noise:
+          x: 0.00161539
+          y: 0.00137780
+          z: 0.00073452
+  - board_48:
+      type: board
+      is_static: true
+      default_tag_size: 0.12000000
+      board:
+        tag_start_id: 48
+        tag_size: 0.12000000
+        tag_bits: 6
+        tag_spacing: 0.25000000
+        tag_rows: 2
+        tag_columns: 3
+        tag_rotation_noise: 0.00100000
+        tag_position_noise: 0.00100000
+      pose:
+        position:
+          x: 6.01991276
+          y: -0.57106269
+          z: 1.31714571
+        rotation:
+          x: -1.20469660
+          y: -1.23255736
+          z: 1.20965960
+        position_noise:
+          x: 0.00323654
+          y: 0.00401083
+          z: 0.00108911
+        rotation_noise:
+          x: 0.00176795
+          y: 0.00173524
+          z: 0.00071272
+  - board_54:
+      type: board
+      is_static: true
+      default_tag_size: 0.12000000
+      board:
+        tag_start_id: 54
+        tag_size: 0.12000000
+        tag_bits: 6
+        tag_spacing: 0.25000000
+        tag_rows: 2
+        tag_columns: 3
+        tag_rotation_noise: 0.00100000
+        tag_position_noise: 0.00100000
+      pose:
+        position:
+          x: 1.27438770
+          y: 0.77045485
+          z: 1.14460392
+        rotation:
+          x: 1.57486147
+          y: 0.00069835
+          z: 0.00441942
+        position_noise:
+          x: 0.00060674
+          y: 0.00084908
+          z: 0.00075616
+        rotation_noise:
+          x: 0.00066522
+          y: 0.00079994
+          z: 0.00078903
+  - board_60:
+      type: board
+      is_static: true
+      default_tag_size: 0.12000000
+      board:
+        tag_start_id: 60
+        tag_size: 0.12000000
+        tag_bits: 6
+        tag_spacing: 0.25000000
+        tag_rows: 2
+        tag_columns: 3
+        tag_rotation_noise: 0.00010000
+        tag_position_noise: 0.00010000
+      pose:
+        position:
+          x: 0.00635000
+          y: 0.12667500
+          z: 0.55050000
+        rotation:
+          x: 1.20919958
+          y: 1.20919958
+          z: 1.20919958
+        position_noise:
+          x: 0.00010000
+          y: 0.00010000
+          z: 0.00010000
+        rotation_noise:
+          x: 0.00001000
+          y: 0.00001000
+          z: 0.00001000
+  - board_66:
+      type: board
+      is_static: true
+      default_tag_size: 0.12000000
+      board:
+        tag_start_id: 66
+        tag_size: 0.12000000
+        tag_bits: 6
+        tag_spacing: 0.25000000
+        tag_rows: 2
+        tag_columns: 3
+        tag_rotation_noise: 0.00100000
+        tag_position_noise: 0.00100000
+      pose:
+        position:
+          x: 3.36798097
+          y: -1.56763455
+          z: 1.15897562
+        rotation:
+          x: -0.01799215
+          y: 2.22117928
+          z: 2.21026849
+        position_noise:
+          x: 0.00132143
+          y: 0.00243475
+          z: 0.00184544
+        rotation_noise:
+          x: 0.00074969
+          y: 0.00085106
+          z: 0.00079920
+  - board_72:
+      type: board
+      is_static: true
+      default_tag_size: 0.12000000
+      board:
+        tag_start_id: 72
+        tag_size: 0.12000000
+        tag_bits: 6
+        tag_spacing: 0.25000000
+        tag_rows: 2
+        tag_columns: 3
+        tag_rotation_noise: 0.00100000
+        tag_position_noise: 0.00100000
+      pose:
+        position:
+          x: 4.13534374
+          y: 0.78319614
+          z: 1.30645149
+        rotation:
+          x: -0.01958540
+          y: 2.21746443
+          z: -2.20629468
+        position_noise:
+          x: 0.00069679
+          y: 0.00259223
+          z: 0.00219478
+        rotation_noise:
+          x: 0.00075357
+          y: 0.00085416
+          z: 0.00079316
+  - board_84:
+      type: board
+      is_static: true
+      default_tag_size: 0.12000000
+      board:
+        tag_start_id: 84
+        tag_size: 0.12000000
+        tag_bits: 6
+        tag_spacing: 0.25000000
+        tag_rows: 2
+        tag_columns: 3
+        tag_rotation_noise: 0.00100000
+        tag_position_noise: 0.00100000
+      pose:
+        position:
+          x: 1.36759819
+          y: -1.58070675
+          z: 1.32508293
+        rotation:
+          x: -1.57182926
+          y: -0.01189729
+          z: 0.00021093
+        position_noise:
+          x: 0.00135335
+          y: 0.00124322
+          z: 0.00088717
+        rotation_noise:
+          x: 0.00076492
+          y: 0.00085411
+          z: 0.00087491
+  - board_90:
+      type: board
+      is_static: true
+      default_tag_size: 0.12000000
+      board:
+        tag_start_id: 90
+        tag_size: 0.12000000
+        tag_bits: 6
+        tag_spacing: 0.25000000
+        tag_rows: 2
+        tag_columns: 3
+        tag_rotation_noise: 0.00100000
+        tag_position_noise: 0.00100000
+      pose:
+        position:
+          x: 6.01005011
+          y: 0.37379888
+          z: 0.55065782
+        rotation:
+          x: 1.20362000
+          y: -1.20940538
+          z: -1.18955913
+        position_noise:
+          x: 0.00328324
+          y: 0.00386887
+          z: 0.00086165
+        rotation_noise:
+          x: 0.00183791
+          y: 0.00155275
+          z: 0.00073580
+  - board_96:
+      type: board
+      is_static: true
+      default_tag_size: 0.12000000
+      board:
+        tag_start_id: 96
+        tag_size: 0.12000000
+        tag_bits: 6
+        tag_spacing: 0.25000000
+        tag_rows: 2
+        tag_columns: 3
+        tag_rotation_noise: 0.00100000
+        tag_position_noise: 0.00100000
+      pose:
+        position:
+          x: 0.00685313
+          y: 0.09359991
+          z: 1.28690810
+        rotation:
+          x: -1.21949450
+          y: 1.21826760
+          z: -1.19425917
+        position_noise:
+          x: 0.00045388
+          y: 0.00044171
+          z: 0.00062527
+        rotation_noise:
+          x: 0.00103094
+          y: 0.00094427
+          z: 0.00053257
+  - board_102:
+      type: board
+      is_static: true
+      default_tag_size: 0.12000000
+      board:
+        tag_start_id: 102
+        tag_size: 0.12000000
+        tag_bits: 6
+        tag_spacing: 0.25000000
+        tag_rows: 2
+        tag_columns: 3
+        tag_rotation_noise: 0.00100000
+        tag_position_noise: 0.00100000
+      pose:
+        position:
+          x: 2.14985162
+          y: 0.77184743
+          z: 1.15012495
+        rotation:
+          x: 1.57693631
+          y: 0.00629831
+          z: 0.00723624
+        position_noise:
+          x: 0.00059401
+          y: 0.00137408
+          z: 0.00117872
+        rotation_noise:
+          x: 0.00071856
+          y: 0.00085896
+          z: 0.00077906

@@ -1,0 +1,143 @@
+#
+# Transferred from the last intrinsic calibration of march 2024
+#
+cam0:
+  # pg camera id: 18057299
+  camera_model: pinhole
+  distortion_coeffs: [-0.166277, 0.008621, 0.001256, 0.002112, 0.000000]
+  distortion_model: radtan
+  intrinsics: [2126.075, 2123.161, 958.30, 589.299]
+  resolution: [1920, 1200]
+  image_topic: /cam_sync/cam0/image_raw
+  image_transport: ffmpeg
+  tag_topic: /cam_sync/cam0/tags
+  tag_detector: mit
+  frame_id: /cam_sync/cam0
+  rig_body: aviary
+  is_static: true
+cam1:
+  camera_model: pinhole
+  # pg camera id: 18025945
+  distortion_coeffs: [-0.211514, 0.147131, -0.002436, -0.003517, 0.000000]
+  distortion_model: radtan
+  intrinsics: [2133.82, 2132.21, 930.98, 584.23]
+  resolution: [1900, 1200]
+  image_topic: /cam_sync/cam1/image_raw
+  image_transport: ffmpeg
+  tag_topic: /cam_sync/cam1/tags
+  tag_detector: mit
+  frame_id: /cam_sync/cam1
+  rig_body: aviary
+  is_static: true
+cam2:
+  # pg camera id: 17408093
+  camera_model: pinhole
+  intrinsics: [2160.65190, 2156.89936, 983.58823, 558.01654]
+  distortion_model: plumb_bob
+  distortion_coeffs: [-0.20167, 0.15160, -0.00265, -0.00108, 0.00000]
+  resolution: [1900, 1200]
+  image_topic: /cam_sync/cam2/image_raw
+  image_transport: ffmpeg
+  tag_topic: /cam_sync/cam2/tags
+  tag_detector: mit
+  frame_id: /cam_sync/cam2
+  rig_body: aviary
+  is_static: true
+cam3:
+  # pg camera id: 18288156
+  camera_model: pinhole
+  intrinsics: [2141.57010, 2136.32608, 1019.46805, 574.47615]
+  distortion_model: plumb_bob
+  distortion_coeffs: [-0.22761, 0.19299, -0.00021, 0.00326, 0.00000]
+  resolution: [1900, 1200]
+  image_topic: /cam_sync/cam3/image_raw
+  tag_detector: mit
+  image_transport: ffmpeg
+  tag_topic: /cam_sync/cam3/tags
+  frame_id: /cam_sync/cam3
+  rig_body: aviary
+  is_static: true
+cam4:
+  # pg camera id: 18057298
+  camera_model: pinhole
+  intrinsics: [2152.96125, 2151.04408, 964.80205, 582.12597]
+  distortion_model: plumb_bob
+  distortion_coeffs: [-0.19036, 0.11500, -0.00135, -0.00011, 0.00000]
+  resolution: [1900, 1200]
+  image_topic: /cam_sync/cam4/image_raw
+  image_transport: ffmpeg
+  tag_topic: /cam_sync/cam4/tags
+  tag_detector: mit
+  frame_id: /cam_sync/cam4
+  rig_body: aviary
+  is_static: true
+cam5:
+  # pg camera id: 18057303
+  camera_model: pinhole
+  intrinsics: [2138.85784, 2137.33817, 1005.65001, 557.94499]
+  distortion_model: plumb_bob
+  distortion_coeffs: [-0.19277, 0.11941, -0.00101, 0.00349, 0.00000]
+  resolution: [1900, 1200]
+  image_topic: /cam_sync/cam5/image_raw
+  image_transport: ffmpeg
+  tag_topic: /cam_sync/cam5/tags
+  tag_detector: mit
+  frame_id: /cam_sync/cam5
+  rig_body: aviary
+  is_static: true
+cam6:
+  # pg camera id: 18057304
+  camera_model: pinhole
+  intrinsics: [2169.84977, 2165.02276, 984.58341, 589.06721]
+  distortion_model: plumb_bob
+  distortion_coeffs: [-0.20267, 0.11387, -0.00283, 0.00263, 0.00000]
+  resolution: [1900, 1200]
+  image_topic: /cam_sync/cam6/image_raw
+  image_transport: ffmpeg
+  tag_topic: /cam_sync/cam6/tags
+  tag_detector: mit
+  frame_id: /cam_sync/cam6
+  rig_body: aviary
+  is_static: true
+cam7:
+  # pg camera id: 18025950
+  camera_model: pinhole
+  intrinsics: [2136.03012, 2133.02720, 932.24880, 567.21127]
+  distortion_model: plumb_bob
+  distortion_coeffs: [-0.22521, 0.19976, -0.00518, -0.00159, 0.00000]
+  resolution: [1900, 1200]
+  image_topic: /cam_sync/cam7/image_raw
+  image_transport: ffmpeg
+  tag_topic: /cam_sync/cam7/tags
+  tag_detector: mit
+  frame_id: /cam_sync/cam7
+  rig_body: aviary
+  is_static: true
+cam8:
+  # pg camera id: 23199575
+  camera_model: pinhole
+  intrinsics: [2140.78323, 2138.30177, 918.32387, 609.08275]
+  distortion_model: plumb_bob
+  distortion_coeffs: [-0.19351, 0.09640, 0.00034, -0.00271, 0.00000]
+  resolution: [1900, 1200]
+  image_topic: /cam_sync/cam8/image_raw
+  image_transport: ffmpeg
+  tag_topic: /cam_sync/cam8/tags
+  tag_detector: mit
+  frame_id: /cam_sync/cam8
+  rig_body: aviary
+  is_static: true
+cam9:
+  # pg camera id: 18288153
+  camera_model: pinhole
+  intrinsics: [2129.08220, 2124.73314, 959.51466, 552.57881]
+  distortion_model: plumb_bob
+  distortion_coeffs: [-0.22766, 0.22572, -0.00168, -0.00025, 0.00000]
+  resolution: [1900, 1200]
+  image_topic: /cam_sync/cam9/image_raw
+  image_transport: ffmpeg
+  tag_topic: /cam_sync/cam9/tags
+  tag_detector: mit
+  frame_id: /cam_sync/cam9
+  rig_body: aviary
+  is_static: true

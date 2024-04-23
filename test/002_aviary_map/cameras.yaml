@@ -1,0 +1,25 @@
+cam0:
+  image_topic: /image_raw
+  tag_topic: /tags
+  image_transport: compressed
+  tag_detector: mit
+  frame_id: cam0
+  rig_body: rig
+  is_static: false
+  camera_model: pinhole
+  distortion_coeffs:
+    [
+      -0.037335764965774954,
+      0.061018602799064965,
+      0.0003938460810197078,
+      -0.0010199290360574365,
+    ]
+  distortion_model: radtan
+  intrinsics:
+    [
+      1451.9685135542463,
+      1451.0967145031757,
+      1216.523055158334,
+      1057.1967084711125,
+    ]
+  resolution: [2448, 2048]
