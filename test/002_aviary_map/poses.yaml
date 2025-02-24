@@ -1,0 +1,123 @@
+bodies:
+ - aviary:
+     type: simple
+     is_static: true
+     default_tag_size: 0.12
+     pose:
+       position:
+         x: 0.00000000
+         y: 0.00000000
+         z: 0.00000000
+       rotation:
+         x: -0.00000000
+         y: -0.00000000
+         z: 0.00000000
+       position_noise:
+         x: 0.00000010
+         y: 0.00000010
+         z: 0.00000010
+       rotation_noise:
+         x: 0.00000010
+         y: 0.00000010
+         z: 0.00000010
+     tags:
+ - wand:
+     type: simple
+     is_static: false
+     default_tag_size: 0.11986000
+     tags:
+       - id: 0
+         size: 0.11986000
+         pose:
+           position:
+             x: 0.00003110
+             y: -0.08891884
+             z: -0.09679596
+           rotation:
+             x: 1.57079622
+             y: -0.00000069
+             z: 0.00000105
+           position_noise:
+             x: 0.00001968
+             y: 0.00001953
+             z: 0.00001963
+           rotation_noise:
+             x: 0.00002000
+             y: 0.00002000
+             z: 0.00001999
+       - id: 1
+         size: 0.11986000
+         pose:
+           position:
+             x: 0.08890189
+             y: -0.00001214
+             z: -0.09529767
+           rotation:
+             x: 1.20919643
+             y: 1.20920133
+             z: 1.20919726
+           position_noise:
+             x: 0.00001981
+             y: 0.00001968
+             z: 0.00001977
+           rotation_noise:
+             x: 0.00002000
+             y: 0.00002000
+             z: 0.00001999
+       - id: 2
+         size: 0.11986000
+         pose:
+           position:
+             x: -0.00000168
+             y: 0.08890129
+             z: -0.09677459
+           rotation:
+             x: -0.00000360
+             y: 2.22143974
+             z: 2.22143959
+           position_noise:
+             x: 0.00001986
+             y: 0.00001975
+             z: 0.00001980
+           rotation_noise:
+             x: 0.00002000
+             y: 0.00002000
+             z: 0.00002000
+       - id: 3
+         size: 0.11986000
+         pose:
+           position:
+             x: -0.08893131
+             y: 0.00002969
+             z: -0.09678177
+           rotation:
+             x: 1.20920194
+             y: -1.20919906
+             z: -1.20920026
+           position_noise:
+             x: 0.00001967
+             y: 0.00001959
+             z: 0.00001969
+           rotation_noise:
+             x: 0.00002000
+             y: 0.00002000
+             z: 0.00001999
+       - id: 4
+         size: 0.11986000
+         pose:
+           position:
+             x: 0.16510000
+             y: 0.00000000
+             z: 0.03175000
+           rotation:
+             x: 0.00000000
+             y: 0.00000000
+             z: 0.00000000
+           position_noise:
+             x: 0.00100000
+             y: 0.00100000
+             z: 0.00100000
+           rotation_noise:
+             x: 0.00100000
+             y: 0.00100000
+             z: 0.00100000

@@ -1,0 +1,64 @@
+cam0:
+  T_cam_body:
+  - [ -0.25157821,  0.12515533,  0.95971066,  1.00000000]
+  camera_model: pinhole
+  distortion_coeffs: [ -0.19886600,  0.15533800,  0.00138800, -0.00042300,  0.00000000]
+  distortion_model: plumb_bob
+  intrinsics: [2165.85600000,2163.65600000,949.97200000,613.13000000]
+  resolution: [1920,1200]
+cam1:
+  T_cam_body:
+  - [  0.22420372,  0.15723596,  0.96177417,  1.00000000]
+  camera_model: pinhole
+  distortion_coeffs: [ -0.19822300,  0.15913200, -0.00049700,  0.00018800,  0.00000000]
+  distortion_model: plumb_bob
+  intrinsics: [2172.67528400,2171.41043500,950.19452900,607.90457900]
+  resolution: [1900,1200]
+cam2:
+  T_cam_body:
+  - [  0.16189204, -0.17821634,  0.97058225,  1.00000000]
+  camera_model: pinhole
+  distortion_coeffs: [ -0.16088700,  0.08752000, -0.00010000, -0.00031900,  0.00000000]
+  distortion_model: plumb_bob
+  intrinsics: [2168.22200000,2165.46000000,978.18600000,587.59200000]
+  resolution: [1900,1200]
+cam3:
+  T_cam_body:
+  - [ -0.22375954, -0.14867078,  0.96323863,  1.00000000]
+  camera_model: pinhole
+  distortion_coeffs: [ -0.20193800,  0.16937200,  0.00033700,  0.00050500,  0.00000000]
+  distortion_model: plumb_bob
+  intrinsics: [2162.77269500,2161.01882400,959.40056100,596.66158400]
+  resolution: [1900,1200]
+cam4:
+  T_cam_body:
+  - [  0.22468406, -0.14293496, -0.96389142,  1.00000000]
+  camera_model: pinhole
+  distortion_coeffs: [ -0.19899000,  0.16663600,  0.00030200, -0.00038700,  0.00000000]
+  distortion_model: plumb_bob
+  intrinsics: [2163.96627800,2162.16468800,941.52140500,603.38435100]
+  resolution: [1900,1200]
+cam5:
+  T_cam_body:
+  - [ -0.29146012, -0.17636080, -0.94018502,  1.00000000]
+  camera_model: pinhole
+  distortion_coeffs: [ -0.20258800,  0.17916100, -0.00000300, -0.00018900,  0.00000000]
+  distortion_model: plumb_bob
+  intrinsics: [2162.27451900,2160.78922800,965.21373300,592.22930200]
+  resolution: [1900,1200]
+cam6:
+  T_cam_body:
+  - [ -0.17693033,  0.18079226, -0.96747600,  1.00000000]
+  camera_model: pinhole
+  distortion_coeffs: [ -0.19765400,  0.15916300, -0.00008700, -0.00020500,  0.00000000]
+  distortion_model: plumb_bob
+  intrinsics: [2168.79334200,2167.19530000,956.76214700,592.00491000]
+  resolution: [1900,1200]
+cam7:
+  T_cam_body:
+  - [  0.30355333,  0.17125560, -0.93729766,  1.00000000]
+  camera_model: pinhole
+  distortion_coeffs: [ -0.19974500,  0.16527600, -0.00000500, -0.00052200,  0.00000000]
+  distortion_model: plumb_bob
+  intrinsics: [2168.55833500,2166.66092100,957.18366300,599.47316300]
+  resolution: [1900,1200]

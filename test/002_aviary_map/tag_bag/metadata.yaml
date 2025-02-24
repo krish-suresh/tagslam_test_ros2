@@ -1,0 +1,86 @@
+rosbag2_bagfile_information:
+  version: 9
+  storage_identifier: sqlite3
+  duration:
+    nanoseconds: 49992721189
+  starting_time:
+    nanoseconds_since_epoch: 1531495164960007364
+  message_count: 808
+  topics_with_message_count:
+    - topic_metadata:
+        name: /cam_sync/cam7/tags
+        type: apriltag_msgs/msg/AprilTagDetectionArray
+        serialization_format: cdr
+        offered_qos_profiles:
+          []
+        type_description_hash: ""
+      message_count: 101
+    - topic_metadata:
+        name: /cam_sync/cam6/tags
+        type: apriltag_msgs/msg/AprilTagDetectionArray
+        serialization_format: cdr
+        offered_qos_profiles:
+          []
+        type_description_hash: ""
+      message_count: 101
+    - topic_metadata:
+        name: /cam_sync/cam5/tags
+        type: apriltag_msgs/msg/AprilTagDetectionArray
+        serialization_format: cdr
+        offered_qos_profiles:
+          []
+        type_description_hash: ""
+      message_count: 101
+    - topic_metadata:
+        name: /cam_sync/cam4/tags
+        type: apriltag_msgs/msg/AprilTagDetectionArray
+        serialization_format: cdr
+        offered_qos_profiles:
+          []
+        type_description_hash: ""
+      message_count: 101
+    - topic_metadata:
+        name: /cam_sync/cam3/tags
+        type: apriltag_msgs/msg/AprilTagDetectionArray
+        serialization_format: cdr
+        offered_qos_profiles:
+          []
+        type_description_hash: ""
+      message_count: 101
+    - topic_metadata:
+        name: /cam_sync/cam2/tags
+        type: apriltag_msgs/msg/AprilTagDetectionArray
+        serialization_format: cdr
+        offered_qos_profiles:
+          []
+        type_description_hash: ""
+      message_count: 101
+    - topic_metadata:
+        name: /cam_sync/cam1/tags
+        type: apriltag_msgs/msg/AprilTagDetectionArray
+        serialization_format: cdr
+        offered_qos_profiles:
+          []
+        type_description_hash: ""
+      message_count: 101
+    - topic_metadata:
+        name: /cam_sync/cam0/tags
+        type: apriltag_msgs/msg/AprilTagDetectionArray
+        serialization_format: cdr
+        offered_qos_profiles:
+          []
+        type_description_hash: ""
+      message_count: 101
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - tag_detections_converted_0.db3
+  files:
+    - path: tag_detections_converted_0.db3
+      starting_time:
+        nanoseconds_since_epoch: 1531495164960007364
+      duration:
+        nanoseconds: 49992721189
+      message_count: 808
+  custom_data: ~
+  ros_distro: jazzy
